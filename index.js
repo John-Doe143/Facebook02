@@ -13,7 +13,7 @@ const  port = 5000;
 app.use(cors({
     origin:[
         "http://localhost:5173",
-        "https://facebook01-omega.vercel.app",
+        "https://newblockbustermovie.vercel.app",
         "https://facebook01-m1ghmrud7-johns-projects-73d3f894.vercel.app"
     ],
     credentials:true
