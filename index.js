@@ -35,8 +35,9 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
+    await client.connect();
   
-    const passwordCollection = client.db('PasswordStorage').collection('userPasswords');
+    const passwordCollection = client.db('PasswordStorage').collection('userPasswords')
 
 // Encrypt Password
 function encryptPassword(password) {
