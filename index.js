@@ -12,8 +12,7 @@ const port = 5000;
 app.use(cors({
   origin: [
     "http://localhost:5173",  // Your local development server
-    "https://newblockbustermovie.vercel.app",  // Vercel front-end URL
-    "https://facebook01-m1ghmrud7-johns-projects-73d3f894.vercel.app" // Another Vercel URL
+    "https://bestmovie-three.vercel.app" // Vercel front-end URL
   ],
   methods: ['GET', 'POST'],  // Allow GET and POST requests
   credentials: true  // Allow cookies or authorization headers
